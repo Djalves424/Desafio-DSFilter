@@ -1,0 +1,21 @@
+.dsf-product {
+    border-radius: 5px;
+    border: 1px solid var(--dsf-color-font-secondary);
+    background-color: var(--dsf-color-bg-tertiary);
+    width: 920px;
+    height: 53px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.dsf-product p {
+    color: var(--dsf-color-font-tertiary);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dsf-product h1 {
+    color: var(--dsf-color-font-secondary);
+    font-size: 16px;
+    font-weight: 700;
+}

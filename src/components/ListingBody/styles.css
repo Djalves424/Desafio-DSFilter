@@ -1,0 +1,6 @@
+
+.card-container{
+    background-color: var(--dsf-color-bg-tertiary);
+    border-radius: 5px;
+    padding: 20px;
+}

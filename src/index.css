@@ -8,18 +8,19 @@
   --dsf-color-font-primary: #FFFFFF;
   --dsf-color-font-secondary: #55BC04;
   --dsf-color-font-tertiary: #6F6F6F;
-  --dsf-color-font-quaternary: #C2C2C2; 
-}
-
-body {
-  background-color: var(--dsf-color-bg-secondary);
+  --dsf-color-font-quaternary: #C2C2C2;
 }
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Roboto";
+}
+
+html,
+body {
+  background-color: var(--dsf-color-bg-secondary);
 }
 
 a,
@@ -27,14 +28,14 @@ a:hover {
   text-decoration: none;
 }
 
-.dflex {
-  display: flex;
-}
-
-.container {
+.dsf-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.dflex {
+  display: flex;
 }
 
 .mb10 {
