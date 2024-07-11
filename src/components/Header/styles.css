@@ -1,0 +1,15 @@
+header {
+    background-color: var(--dsc-color-bg-primary);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    left: 120;
+    width: 1200;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dsc-color-font-primary);
+}
