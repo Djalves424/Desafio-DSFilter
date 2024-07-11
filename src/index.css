@@ -1,4 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+
 :root {
-color: red;
+  --dsc-color-bg-primary: #55BC04;
+  --dsc-color-bg-secondary: #FFFFFF;
+  --dsc-color-bg-tertiary: #C2C2C2;
+
+  --dsc-color-font-primary: #FFFFFF;
+  --dsc-color-font-secondary: #C2C2C2;
+  --dsc-color-font-tertiary: #6F6F6F;
+  --dsc-color-font-quaternary: #55BC04;
 }
 
+body {
+  background-color: var(--color-bg-primary);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.dflex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
