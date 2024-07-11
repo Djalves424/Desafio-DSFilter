@@ -1,14 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
+import { ContextProductCount } from "./utils/context-product";
+import { useState } from "react";
 
 function App() {
+  const [contextProductCount, setContextProductCount] = useState<number>(0);
+
   return (
-    <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<Home />}>
-      </Route>
-    </Routes>
-    </BrowserRouter>
+    <ContextProductCount.Provider
+      value={{ contextProductCount, setContextProductCount }}
+    >
+      <Home />
+    </ContextProductCount.Provider>
   );
 }
 
